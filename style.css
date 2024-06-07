@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-1{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(images/bg-img.png);
+}
+
+.navbar {
+    background: #7FB8BB;
+    width: 100%;
+    height: 3.4rem;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.logo {
+
+    display: flex;
+    
+    justify-content: space-between;
+    
+    margin-top: 0.49rem;
+    align-items: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+.logo img {
+    height: 2rem;
+    
+}
+.logo h3{
+   
+    margin-left: 1rem;
+    font-size: 1.8rem;
+}
+.navlist {
+    list-style: none;
+   
+    margin-top: .5rem;
+    font-weight: 700;
+
+    left: 4rem;
+    font-size: 1.5rem;
+}
+.navlist li {
+    display: inline-block;
+    margin-right: 2rem;
+    
+}
+
+.navlist li:hover{
+    cursor: pointer;
+}
+.navbutton {
+    margin-left: 5rem;
+   
+    margin-top: 0.6rem;
+
+}
+.navbtn {
+    width: 100px;
+    height: 35px;
+    align-items: center;
+    background-color: #009199;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.15rem;
+    /* margin-right: 8px; */
+   text-align: center;
+}
+
+.navbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbtn:hover{
+    cursor: pointer;
+    border: #7FB8BB;
+    
+}
+.right{
+    
+    margin-left: 1.2rem;
+}
+
+.search_tab  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.search_tab input {
+    margin-top: 7rem;
+    height: 3.rem;
+    width: 40rem;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: .5rem;
+     
+   
+}
+
+.search_tab i{
+    font-size: 2.5rem;
+    
+
+    position: relative;
+    right: 3.2rem;
+    top: 3.5rem;
+}
+
+.slogan {  
+    font-size: 3rem;
+    
+    position: relative;
+    top: 4rem;
+    left: 7rem;
+}
+
+.slogan h2{
+    font-weight: 50;
+    color: white;
+}
+
+.slogan p{
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: white;
+}
+
+.chat-bot{
+    display: flex;
+    justify-content: right;
+    margin-top: 16rem;
+    margin-right: 2rem;
+}
+
+.chat-bot img{
+    position: fixed;
+    z-index: 1;
+    height: 3rem;
+}
+
+.chat-bot img:hover{
+    cursor: pointer;
+}
+
+.page-2{
+    overflow: hidden;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 4rem;
+    
+}
+
+.contant img{
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 0 14px 28px rgba(0, 255, 242, 0.25), 0 10px 10px rgba(0, 255, 242, 0.25);
+    border-radius: 0.8rem;
+}
+
+.img-content{
+   width: 15rem;
+   
+   transition: all 0.3s ease-in-out;
+   font-size: 1.8rem;
+   font-weight: 200;
+   position: relative;
+   left: 2rem;
+   top: 14rem;
+   color: black;
+   text-align: center;
+   z-index: 5;
+   opacity: 1;
+   
+}
+
+#middle-service h1{
+    font-size: 4rem;
+    color: rgb(6, 12, 14);
+    text-shadow: 2px 2px 5px rgb(2, 205, 188);
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.locbtn{
+    width: 20rem;
+    height: 3.2rem;
+    border-radius: 0.5rem;
+    background-color: #a5e6ea;
+    color: rgb(1, 31, 6);
+    border: none;
+    font-size: x-large;
+    margin-top: 1rem;
+    
+}
+
+
+.locbtn p{
+    font-weight: 500;
+    font-style: inherit;
+}
+
+.contact-form{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-left{
+    justify-content: center;
+    display: inline;
+}
+.contact-left h1{
+    margin-bottom: 8rem;
+    margin-left: 6rem;
+    font-size: 4rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px rgb(2, 205, 188);
+
+}
+
+.email-logo{
+    position: relative;
+    bottom: 5.6rem;
+    margin-left: 14rem;
+    
+
+}
+
+.email-logo a{
+    position: relative;
+    top: 2.6rem;
+    right: 5.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.location{
+    position: relative;
+    top: 1rem;
+    left: 14.2rem;
+
+}
+
+.location p{
+    width: 20rem;
+    position: relative;
+    top: 1.6rem;
+    text-align: center;
+    right: 4.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.contact-right{
+    margin-top: 5.9rem;
+    height: 26rem;
+    width: 33rem;
+    border-radius: .6rem;
+    background-color: #B0D8DA;
+    margin-right: 5rem;
+}
+
+.conversation-box{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conversation-box h3{
+    position: relative;
+    left: 3rem;
+    top: 1.5rem;
+    font-size: 2.3rem;
+}
+
+
+.requirement input{
+    width: 28rem;
+    height: 3rem;
+    position: relative;
+    top: 4rem;
+    left: 2.5rem;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    
+}
+
+.requirement input::placeholder{
+    font-size: 1.6rem;
+    align-items: center;
+    position: relative;
+    top: .3rem;
+    right: .8rem;
+    font-weight: 100;
+    text-decoration: black;
+    opacity: .4;
+}
+
+.box-btn{
+    display: flex;
+}
+.box-btn button{
+    position: relative;
+    top: 5.6rem;
+    left: 2.5rem;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    background-color: #009199;
+    color: white;
+}
+
+.box-btn span{
+    position: relative;
+    top: 6.3rem;
+    font-size: 1.5599rem;
+    font-weight: 400;
+    left: 3rem;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 5rem;
+    height: 10rem;
+    background-color: #3f4d5036;
+}
+
+.footer-main{
+    position: relative;
+    top: 1rem;
+    display: flex;
+    justify-content: space-evenly; 
+    left: 5rem;
+}
+
+.social-media {
+   position: relative;
+   right: 10rem;
+}
+
+.social-media span{
+    font-size: 1.2rem;
+    opacity: 0.5;
+    
+}
+
+.twiter{
+    position: relative;
+    top: .6rem;
+}
+
+
+.gap{
+   position: relative;
+   left: 2rem;
+   opacity: .5; 
+    font-size: 1.2rem;
+}
+
+.gap i{
+    position: relative;
+    right: .5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.whatsapp{
+    position: relative;
+    top: .8rem;
+}
+
+.facebook{
+    position: relative;
+    top: .9rem;
+}
+
+.instagram{
+    position: relative;
+    top: 1.0rem;
+}
+
+.gap:hover{
+    opacity: 1;
+    color: blue;
+    cursor: pointer;
+}
+
+.sm2{
+    position: relative;
+    left: 1.3rem;
+}
+
+.sm3{
+    position: relative;
+    left: 1.9rem;
+}
+
+.copyright {
+    height: 3rem;
+    width: 16rem;
+   opacity: .7;
+}
+
+.copyright p{
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    top: .2rem;
+}
+
+.copyright i{
+    position: relative;
+    top: 1rem;
+    left: 2.3rem;
+    font-size: 1.5rem;
+    opacity: .5;
+    color: black;
+}
+
+.copyright a{
+    position: relative;
+    top: .8rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+    opacity: .5;
+}
+
+.copyright i,a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.Gimage{
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+.guide{
+    height: 20rem;
+    width: 18rem;
+    background-color:#F7F7F7;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 5px 28px rgba(0, 255, 242, 0.25), 0 10px 10px rgba(0, 255, 242, 0.25);
+
+    
+}
+
+.g1{
+    position: relative;
+    right: 4.5rem;
+}
+
+.g2{
+    position: relative;
+    right: 1rem;
+}
+
+.g3{
+    position: relative;
+    left: 2rem;
+}
+.Gcentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.Gh3{
+    position: relative;
+    left: 3.3rem;
+    top: 2.7rem;
+    font-size: x-large;
+
+}
+.Gpera{
+    position: relative;
+    left: 2.8rem;
+    top: 4rem;
+    width: 12rem;
+}
+#Gh1{
+    font-size: 4rem;
+    font-weight: 700;
+
+    color: rgb(1, 31, 6);
+    text-shadow: 2px 2px 5px rgb(2, 205, 188);
+
+    display: flex;
+    justify-content: center;
+}
