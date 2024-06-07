@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#full-page{
+    height: 100vh;
+    display: flex;
+    width:100%;
+    background-color: rgb(178, 229, 232);
+}
+
+.left{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(178, 229, 232);
+}
+
+
+.building-img{
+    margin-top: 8rem;
+    height: 70%;
+    width: fit-content;
+    position: relative;
+    left: 1.5rem;
+}
+
+.logo-img{
+    
+    position: relative;
+    left: 2.9rem;
+    top: 1.5rem;
+
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    
+}
+.logo_name{
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgb(43, 52, 51);
+
+    color: white;
+    position: absolute;
+    left: 6.9rem;
+    top: 2.1rem;
+}
+
+.right{
+    padding-left: 6rem;
+    padding: 2rem;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.language{
+    height: 5.5rem;
+    width: 100%;
+    position: relative;
+    left: 56rem;
+    bottom: 1rem;
+
+}
+
+.language h4{
+    opacity: 0.3;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+}
+
+.language h4:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+}
+
+.create h2{
+    font-size: 3rem;
+    position: relative;
+    right: 8rem;
+    right: 1rem;
+    bottom: 1rem;
+    text-shadow: 2px 2px 5px rgb(2, 205, 188);
+
+}
+
+.icon-google{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.icon-google img{
+    height: 3rem;
+    
+}
+
+.icon-google a{
+    text-decoration: none;
+    color: black;
+   font-size: 1.6rem;
+ 
+}
+.icon-google{
+    width: 30rem;
+    position: relative;
+    left: 13rem;
+    border: solid;
+    border-width: 1px;
+    padding: 1.5rem 1.5rem;
+    border-color: gray;
+    border-radius: 5px;
+}
+.icon-google img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.or{
+    position: relative;
+    left: 25rem;
+    top: .5rem;
+    opacity: 0.5;
+    padding: 1rem;
+}
+
+.input-details{
+    height: 20rem;
+    position: relative;
+    right: 10rem;
+    display: inline;
+    
+}
+
+.name{
+    height: 2rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 23rem;
+    top: 1.2rem;
+    border: none;
+    border-bottom: solid;
+   border-width: 1px;
+   border-color: gray;
+    border-color: gray;
+    color: gray;
+
+}
+
+.name::placeholder{
+    font-size: 1rem;
+    
+}
+
+
+
+#account{
+    margin-top: 2rem;
+    height: 3rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 23rem;
+    top: 1.2rem;
+    padding: 1re;
+    color: rgb(255, 251, 251);
+    background-color: #74C2C6;
+    border: none;
+    border-radius: 0.3rem;
+    
+}
+
+#account a{
+    font-size: 2rem;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+#account:hover{
+    cursor: pointer;
+    background-color:white;
+    border: 2px solid #74C2C6;
+    color: #74C2C6;
+}
+
+h5{
+    
+    margin-top: 2rem;
+    height: 2rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 21.5rem;
+    top: 1.2rem;
+    color: gray;
+    font-size: 1.5rem;
+}
+#log-link{
+    color: rgb(140, 203, 206) ;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+
